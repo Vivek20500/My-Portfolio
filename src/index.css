@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.textShadow{
+  cursor:default;
+}
+.textShadow:hover{
+  text-shadow: 4px 0px 0 rgb(81, 81, 81);
+  transition: all 0.3s;
+}
+.textShadowWhite:hover{
+  text-shadow: 4px 0px 0 rgb(255, 255, 255);
+  transition: all 0.3s;
+}
