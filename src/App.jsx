@@ -7,6 +7,7 @@ import About from './components/About';
 import lottie from "lottie-web";
 import { defineElement } from "@lordicon/element";
 import Projects from './components/Projects';
+import Wrong from './components/Wrong';
 
 // define "lord-icon" custom element with default properties
 defineElement(lottie.loadAnimation);
@@ -72,6 +73,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="*" element={<Wrong />} />
         </Routes>
         
 
