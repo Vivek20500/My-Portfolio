@@ -15,31 +15,31 @@ function About() {
         <div className='mb-5'>
           <Title title='About Me' />
           <p className='text-2xl'>
-            <span className='text-3xl font-bold'>Hello! I'm Vivek</span>, a passionate Electronics and Communication Engineering sophomore at National Institute of Technology Raipur.
+            <span className=' text-2xl sm:text-3xl font-bold'>Hello! I'm Vivek</span>, a passionate Electronics and Communication Engineering sophomore at National Institute of Technology Raipur.
           </p>
-          <p className='text-lg'>
+          <p className='text-md sm:text-lg'>
             I specialize in web development and hardware prototyping, blending technology and creativity to build innovative solutions. My expertise spans front-end development with React and Tailwind CSS, as well as hands-on experience in Arduino-based hardware projects, including gesture-controlled drones using accelerometers.
           </p>
         </div>
       </div>
-      <div className='mb-5'>
+      <div className=' mb-5'>
         <Title title='Education' />
-        <div className='flex'>
-          <div className='w-1/2'>
-            <p className='text-3xl font-bold'>Kendriya Vidalaya No.2 Raipur</p>
-            <p className='text-2xl'>89% 12th Year-2022</p>
-            <p className='text-2xl'>82% 10th Year-2020</p>
-          </div>
-          <div className='w-1/2'>
-            <p className='text-3xl font-bold'>National Institute of Technology Raipur</p>
-            <p className='text-2xl'>B.Tech in Electronics and Communication Engineering</p>
+        <div className='sm:flex'>
+          <div className='mb-5 sm:w-1/2'>
+            <p className='text-2xl font-bold'>National Institute of Technology Raipur</p>
+            <p className='text-xl'>B.Tech in Electronics and Communication Engineering</p>
             <p>2023-2027</p>
+          </div>
+          <div className='sm:w-1/2'>
+            <p className='text-2xl font-bold'>Kendriya Vidalaya No.2 Raipur</p>
+            <p className='text-xl'>89% 12th Year-2022</p>
+            <p className='text-2xl'>82% 10th Year-2020</p>
           </div>
         </div>
       </div>
       <div className='flex flex-col justify-center items-center'>
         <Title title='Skills' />
-        <div className='flex w-10/12 flex-wrap gap-10'>
+        <div className='flex sm:w-10/12 flex-wrap gap-10'>
           <div className='flex flex-col justify-items-end'>
             <lottie-player src="https://lottie.host/71ac0413-46be-45d2-a0a0-6bf8d981a88c/bEuxhMQqpu.json" background="##FFFFFF" speed="1" style={{ width: '200px', height: '200px' }} loop autoplay direction="1" mode="normal"></lottie-player>
             <SkillsName name='HTML' />

@@ -4,8 +4,11 @@ import myImg from '../assets/Vivek.jpg'
 
 function Home() {
   return (
-    <div className='mainContent w-full h-screen flex'>
-      <div className='w-1/2 flex flex-col items-center justify-center'>
+    <div className='mainContent w-full h-max sm:h-screen flex flex-col-reverse justify-end sm:flex-row '>
+      <div className=" flex justify-center items-center sm:hidden">
+      <lottie-player src="https://lottie.host/cf5655b7-c8d2-498f-8141-db53dbce7d71/sZJTTk4eTp.json" background="##000000" speed="1" style={{width: '300px', height: '300px'}} loop  autoplay direction="1" mode="normal"></lottie-player>
+      </div>
+      <div className='w-full my-10 sm:w-1/2 flex flex-col items-center justify-center'>
         <p className='textShadowWhite font-extrabold text-5xl mb-5 cursor-default'>Vivek Verma</p>
         <div className=' w-1/2 flex justify-around'>
           <a href='https://www.linkedin.com/in/vivek-verma-b7701929a/'>
@@ -35,11 +38,11 @@ function Home() {
           </a>
         </div>
       </div>
-      <div className=' w-1 bg-cyan-950'></div>
-      <div className=' w-1/2 flex justify-center items-center'>
-        <img src={myImg} width='60%' alt="My Photo" className=" rounded-full border-4 shadow-2xl" />
-
+      <div className='sm:block hidden w-1 bg-cyan-950'></div>
+      <div className=' sm:w-1/2 flex justify-center items-center'>
+        <img src={myImg} width='50%' alt="My Photo" className=" border-4 shadow-2xl " />
       </div>
+      
     </div>
   )
 }

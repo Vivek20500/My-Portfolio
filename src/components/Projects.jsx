@@ -18,11 +18,11 @@ function Card(props){
 
 function Projects(){
     return(
-        <div className=" h-screen">
-            <div className="flex gap-10">
-                <a href="https://vivek20500.github.io/calculator/"><Card img={project1} name='Calculator' description='Introducing a sleek web-based calculator that combines elegance with powerful functionality.'/></a>
-                <a href="https://vivek20500.github.io/To-Do-List/"><Card img={project4} name='To-Do List' description='A sleek to-do list web app designed for productivity.'/></a>
-                <a href="https://vivek20500.github.io/index/"><Card img={project3} name='Solar System' description='Its a Solar system'/></a>
+        <div className=" h-max md:h-screen">
+            <div className="  flex-col md:flex-row flex gap-10">
+                <a className="flex justify-center" href="https://vivek20500.github.io/calculator/"><Card img={project1} name='Calculator' description='Introducing a sleek web-based calculator that combines elegance with powerful functionality.'/></a>
+                <a className="flex justify-center" href="https://vivek20500.github.io/To-Do-List/"><Card img={project4} name='To-Do List' description='A sleek to-do list web app designed for productivity.'/></a>
+                <a className="flex justify-center" href="https://vivek20500.github.io/index/"><Card img={project3} name='Solar System' description='Its a Solar system'/></a>
             </div>
         </div>
     )
