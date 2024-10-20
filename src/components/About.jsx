@@ -1,6 +1,6 @@
 import React from 'react';
-import Title from './title';
-import SkillsName from './SkillsName';
+import Title from './Title.jsx';
+import SkillsName from './SkillsName.jsx';
 
 import lottie from "lottie-web";
 import { defineElement } from "@lordicon/element";

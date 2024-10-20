@@ -1,5 +1,5 @@
 import React from "react";
-import SkillsName from './SkillsName';
+import SkillsName from './SkillsName.jsx';
 import project1 from '../assets/projectImg/p1.png'
 import project3 from '../assets/projectImg/p3.png'
 import project4 from '../assets/projectImg/p4.png'
